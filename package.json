@@ -1,0 +1,33 @@
+{
+  "name": "hello-nw",
+  "version": "0.1.0",
+  "description": "nw.js hello world",
+  "main": "index.html",
+  "window": {
+    "frame": false,
+    "toolbar": false,
+    "fullscreen": true
+  },
+  "scripts": {
+    "start": "nw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mucsi96/hello-nw.git"
+  },
+  "keywords": [
+    "nw.js",
+    "node-webkit",
+    "hello",
+    "world"
+  ],
+  "author": "Igor Muchychka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mucsi96/hello-nw/issues"
+  },
+  "homepage": "https://github.com/mucsi96/hello-nw",
+  "dependencies": {
+    "nw": "^0.12.0"
+  }
+}
